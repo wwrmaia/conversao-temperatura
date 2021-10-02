@@ -27,8 +27,8 @@ jobs:
       - name: Docker Build and Push
         uses: docker/build-push-action@v2.7.0
         with:
-          context: ./conversao-temperatura/src
-          file: ./src/dockerfile
+          context: conversao-temperatura/src
+          file: src/dockerfile
           push: true
           tags: |
             wwrmaia/conversao-temperatura:latest
