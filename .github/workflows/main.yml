@@ -30,7 +30,7 @@ jobs:
           context: ./src
           file: ./src/dockerfile
           push: true
-          tags:
+          tags: |
             wwrmaia/conversao-temperatura:latest
             wwrmaia/conversao-temperatura:${{github.run_number}}
   
