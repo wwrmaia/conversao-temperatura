@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v2.7.0
         with:
           context: conversao-temperatura/src
-          file: ./dockerfile
+          file: conversao-temperatura/src/dockerfile
           push: true
           tags: |
             wwrmaia/conversao-temperatura:latest
