@@ -49,5 +49,5 @@ jobs:
       - uses: Azure/k8s-deploy@v1.3
         with:
           images: wwrmaia/conversao-temperatura:${{github.run_number}}
-          manifests:
+          manifests: |
             k8s/meudeployment.yaml
