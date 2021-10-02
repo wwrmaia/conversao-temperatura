@@ -50,4 +50,4 @@ jobs:
         with:
           images: wwrmaia/conversao-temperatura:${{ github.run_number }}
           manifests: |
-            K8s/meudeployment.yaml
+            k8s/meudeployment.yaml
